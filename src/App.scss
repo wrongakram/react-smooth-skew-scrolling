@@ -11,6 +11,9 @@ h2 {
   text-align: center;
   font-size: 8rem;
   margin: 40px auto;
+  @media (max-width: 480px) {
+    font-size: 6rem;
+  }
   .outline {
     -webkit-text-stroke: 1px black;
     -webkit-text-fill-color: white;
