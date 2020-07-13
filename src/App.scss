@@ -44,6 +44,9 @@ h2 {
     &:last-child {
       margin-bottom: 200px;
     }
+    @media (max-width: 480px) {
+      width: 95%;
+    }
     img {
       width: 100%;
       position: absolute;
